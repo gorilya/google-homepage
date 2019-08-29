@@ -2,25 +2,49 @@ body {
     text-align: center;
 }
 
+#body{
+  padding: 0;
+  padding-bottom: 60px;
+}
+
 .top-nav{
   overflow: hidden;
   font-family: "Arial";
   font-size: 13px;
   font-color: #6e6e6a;
-  text-align: center;
+  text-align: center; 
 }
 
 #top-nav1 {
     display: inline-block;
     float: left;
     margin: 20px;
+    text-decoration: none;
 }
+
+#top-nav1 a{
+  text-decoration: none;
+  color: #6e6e6a;
+}
+
+#top-nav1 a:hover{
+  text-decoration: underline;
+}
+
 #top-nav2 {
     float: right; 
-    margin: 20px;
-}
-#top-nav2 a{
+    margin: 22px;
     font-size: 13px;
+    text-decoration: none;
+}
+
+#top-nav2 a{
+    text-decoration: none;
+    color: #6e6e6a;
+}
+
+#top-nav2 a:hover{
+  text-decoration: underline;
 }
 
 #top-nav3 {
@@ -32,7 +56,7 @@ body {
 }
 
 #user {
-  width: 40px;
+  width: 42px;
 }
 input {
     border: 1px solid #eaeaea;
@@ -107,7 +131,7 @@ input:focus {
 
 #search-bar{
     width: 200%;
-    font-family: "Arial Regular";
+    font-family: "Arial";
     font-size: 15px;
     font-color: #545454;
 }
